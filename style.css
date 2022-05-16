@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: grey;
+  }
+  
+  .header-container {
+    color: white;
+    background-color: rgb(237, 159, 159);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .photos {
+    display: flex;
+    justify-content: column;
+    height: 250px;
+    width: 250px;
+    flex-wrap: wrap;
+    box-shadow: black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+  }
+  .Winner {
+    color: white;
+    background-color: rgb(237, 159, 159);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .Winner-photo {
+    margin-left: 600px;
+    display: flex;
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    
+  }
+  .left-side {
+display: flex;
+justify-content: left;
+display: table-column-group;
+margin-left: 300px;
+  }
+  .right-side {
+    margin-left: 600px;
+display: flex;
+justify-content: right;
+display: table-column-group;
+  }
+  
